@@ -8,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling //声明定时任务
 public class ActiveMqApplication {
 
+	
 	public static void main(String[] args) {
 		SpringApplication.run(ActiveMqApplication.class, args);
 	}
